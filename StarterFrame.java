@@ -51,10 +51,6 @@ public class StarterFrame extends JFrame implements ActionListener {
 
     }
 
-    public static void main(String[] args) {
-        StarterFrame starterFrame = new StarterFrame();
-    }
-
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == jb1) {
